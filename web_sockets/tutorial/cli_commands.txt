@@ -1,0 +1,5 @@
+cd web_sockets/tutorial/
+python -m http.server
+
+python -m web_sockets.tutorial.app
+websockets ws://localhost:8001/
