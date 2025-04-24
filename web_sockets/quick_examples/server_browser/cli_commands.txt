@@ -1,0 +1,7 @@
+cd web_sockets/quick_examples/server_browser
+python -m http.server
+
+python -m web_sockets.quick_examples.server_browser.show_time
+python -m web_sockets.quick_examples.server_browser.sync_time
+
+http://localhost:8000/show_time.html

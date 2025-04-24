@@ -1,0 +1,6 @@
+cd web_sockets/quick_examples/manage_application_state
+python -m http.server
+
+python -m web_sockets.quick_examples.manage_application_state.counter
+
+http://localhost:8000/counter.html

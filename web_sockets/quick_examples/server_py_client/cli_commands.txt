@@ -1,0 +1,2 @@
+python -m web_sockets.quick_examples.server_py_client.server
+python -m web_sockets.quick_examples.server_py_client.client
